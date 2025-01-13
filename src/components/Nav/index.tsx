@@ -12,6 +12,7 @@ export function Nav(){
             <Link href="/inicio">
                 
                 <span>Inicio</span>
+                <span>Incio02</span>
             </Link>
             <Link href="/cliente">Cliente</Link>
             <Link href="/login">Login</Link>
