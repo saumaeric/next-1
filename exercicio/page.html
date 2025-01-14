@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02</title>
+</head>
+<body>
+    <header>
+        <h1>Aula 02</h1>
+        <nav>
+            <button>Abrir</button>
+            <button>Fechar</button>
+        </nav>
+    </header>
+
+    <div class="container">
+       
+        <form >
+            <h2>Tela de cadastro</h2>
+            <input type="text" placeholder="nome completo">
+            <input type="text" placeholder="email">
+            <input type="text" placeholder="senha">
+            <button id="btnCadastrar">Cadastrar</button>
+        </form>
+    </div>
+
+    <style>
+        *{
+            margin: 0; padding: 0; box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1{
+            margin-top: 10px;
+        }
+        header{
+            height: 100px;
+            width: 100vw;
+            color: #fff;
+            background-color: black;
+
+            gap: 10px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+        .container{
+           
+            height: 400px;
+            width: 100vw;
+            background-color: blueviolet;
+        }
+        button{
+            padding: 8%px;
+            width: 100px;
+        }
+        form{
+            width: 50%;
+            margin: auto;
+            
+            margin-top: 20px;
+            gap: 10px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>   
+</body>
+</html>
