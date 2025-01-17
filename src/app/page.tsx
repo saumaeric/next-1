@@ -12,6 +12,11 @@ export default function Home() {
           <IconSandbox size={70} />
           <IconMoneybag size={70} />
           <IconDog size={70} />
+          <div>
+            <h1>
+              <IconMoneybag size={80} />
+            </h1>
+          </div>
       </div>
     </div>
   );
